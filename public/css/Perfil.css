@@ -1,0 +1,179 @@
+
+/* Titulo y NAV */
+.imgnav{
+    width: 100vw;
+    margin-top: -10px;
+    z-index: 1;
+  }
+        .titulo{
+          color: white;
+          text-align: center;
+          letter-spacing: 5px; 
+          z-index: 2; 
+          font-size: 30px;
+          margin-top: -97px;
+         
+        }
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../images/imgperfil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+/* CONTAINER PERFIL */
+.card-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff80;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.upper-container {
+    background-color: rgb(69, 128, 128);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.image-container img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.lower-container {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-button {
+    background-color: #2ecc71;
+}
+
+.custom-button:hover {
+    background-color: #27ae60;
+}
+
+.btn-primary {
+    background-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+
+/* BARRA DE DEZPLAZAMIENTO */
+
+
+:root {
+    --main-background-color: #d6d6d6; /* Color de fondo principal */
+    --form-background-color: #eeeeee; /* Color de fondo del formulario */
+    --border-color: #ccc; /* Color del borde */
+    --text-color: #000000; /* Color del texto */
+    --button-background-color: #003b3b; /* Color de fondo del botón */
+    --button-text-color: #ffffff; /* Color del texto del botón */
+}
+
+#search-form {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    margin-right: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--form-background-color);
+}
+
+#search-input {
+    flex: 1;
+    padding: 3px;
+    border: none;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    color: var(--text-color);
+    background-color: var(--main-background-color);
+}
+
+#search-button {
+    padding: 6px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* Estilo para la barra de desplazamiento horizontal */
+body::-webkit-scrollbar {
+width: 5px; /* Ancho de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #c9c8c8; /* Cambia el color de la barra de desplazamiento a gris */
+border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+background-color: #133A35; 
+}
+
+/* Estilo para la barra de desplazamiento horizontal en Firefox */
+body {
+scrollbar-width: thin;
+scrollbar-color: #808080 #f2f2f2;
+}
+
+/* Eliminar el borde circular al llegar al final del borde derecho */
+body::-webkit-scrollbar-thumb:end {
+border-right: none;
+}
+
+/* Eliminar el borde circular al llegar al final del borde inferior */
+body::-webkit-scrollbar-thumb:horizontal:end {
+border-bottom-right-radius: 0;
+}
+
+

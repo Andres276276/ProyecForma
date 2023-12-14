@@ -1,0 +1,65 @@
+/* IMG Y TITULO */
+.imgnav{
+    margin-top: -70px;
+    z-index: 1; 
+  
+  }
+        .titulo{
+          color: white;
+          text-align: center;
+          letter-spacing: 5px; 
+          z-index: 2; 
+          font-size: 30px;
+  
+        }
+
+
+body{
+    background-image: url(../images/img3-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.7); 
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .black-container {
+    /* color: rgb(255, 255, 255);  */
+    padding: -150px; 
+    height: 270vh;
+}
+
+
+.table {
+    color: rgb(0, 0, 0);
+}
+
+/* .btn {
+    color: rgb(255, 255, 255);
+} */
+
+.table td, .table th {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+
+.table thead th {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white !important; 
+    
+}
+
+
+
+/* Fondo de tabla */
+
+.Tablad{
+    background-color: #a3a1a1a1;
+    backdrop-filter: blur(5px);
+}
